@@ -45,8 +45,7 @@ public class StackUsingQueue {
     }
 
     public int top() {
-        Integer peek = queue.peek();
-        return peek;
+        return queue.peek();
     }
 
     public boolean empty() {
